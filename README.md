@@ -10,7 +10,21 @@ Required:
 Sometimes, your project's migration want to separate folders, but you need
  to add option `--path=database/migrations/someone/` or others, that's good but 
  I want to more `automatic`. Imagine one command to do all migration or rollback, that's it.
-
+ 
+ For example, I have 2 directories in `database/migrations`:
+ ```
+   database/
+      migrations/
+         testing1/
+             create_posts_table.php
+             create_comment_table.php
+         testing2/
+             create_articles_table.php
+             create_messages_table.php
+ ```
+ 
+ And then you run `php arisan migrate:batch` it will do all migration done.
+ 
 # Installation
 
 As others package, use composer install this package. For example:
