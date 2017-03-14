@@ -80,7 +80,7 @@ Finally, you can checkout `$ php artisan` and you can see 2 commands.
   migrate:batch-rollback  Rollback the last database migration (including depth directories)
 ```
 * When you run `php artisan migrate:batch`, it will do all migrate in path.
-* When you run `php artisan migrate:rollback`, it will rollback your migrate:batch done.
+* When you run `php artisan migrate:batch-rollback`, it will rollback your migrate:batch done.
 
 **Supported --force**
 
