@@ -1,0 +1,21 @@
+{
+    "name": "mombuyish/laravel-batch-migrations",
+    "description": "Batching migrate schema for laravel",
+    "keywords": ["laravel", "migration", "batch"],
+    "authors": [
+        {
+            "name": "Yish",
+            "email": "mombuartworks@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.3.*|5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mombuyish\\BatchMigration\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
